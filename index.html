@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey Website</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/b9179da081.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="relative container mx-auto">
+        <div class="lg: rounded-2xl w-full max-h-[500px] carousel">
+            <div class="flex-col w-full relative carousel-item" id="s1">
+                <img src="Images/1.png" alt="" class="object-cover h-full w-full">
+                <div class="top-1/2 right-5 left-5 absolute flex justify-between transform -translate-y-1">
+
+                    <a href="#s3" class="btn btn-circle">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                    <a href="#s2" class="btn btn-circle">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative w-full carousel" id="s2">
+                <img src="Images/10.png" alt="" class="h-full object-cover w-full">
+
+                <div class="top-1/2 right-5 left-5 absolute flex justify-between transform -translate-y-1">
+
+                    <a href="#s1" class="btn btn-circle">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                    <a href="#s2" class="btn btn-circle">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative w-full carousel" id="s3">
+                <img src="Images/11.png" alt="" class="h-full object-cover w-full">
+                <div class="top-1/2 right-5 left-5 absolute flex justify-between transform -translate-y-1">
+
+                    <a href="#s2" class="btn btn-circle">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                    <a href="#s1" class="btn btn-circle">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:absolute lg:right-[20px] lg:top-[412px] p-8 rounded-2xl static bg-[#131318] max-w-[500px]">
+
+            <h2 class="text-[#fff]">
+                Meet with the champions...
+            </h2>
+            <p class="text-white mt-3">
+                Hockey is one kind of important sport which is highly respective and also good for the entertainment and
+                also joyful.
+            </p>
+        </div>
+    </header>
+
+    <main class="container mx-auto">
+        <section class="my-24 mx-6 lg:mx-0">
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold text-[#131318]">
+                    Professional Hockeys Club
+                </h1>
+                <p class="text-[rgba(19, 19, 24, 0.60)] font-medium mt-6 max-w-[607px] mx-auto">
+                    It demands a combination of skill, speed, and teamwork. In ice hockey, two teams compete to score goals by shooting a puck into the opponent's net using sticks. The game involves intense physical contact, strategic plays, and precise coordination among players.
+                </p>
+            </div>
+            <div class="flex gap-8 flex-col lg:flex-row mt-11 mx-10 lg:mx-0">
+                <div class="text-center">
+                    <div class="radial-progress text-red-600 text-xl font-extrabold" style="--value: 87"
+                        role="progressbar">
+                        87%
+                    </div>
+                    <h3 class="mt-3 text-xl font-semibold">Prayer Facility</h3>
+                    <p class="mt-1">
+                        Ice hockey (or simply hockey) is a team sport played on ice skates
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-green-500 text-xl font-extrabold" style="--value: 92"
+                        role="progressbar">
+                        92%
+                    </div>
+                    <h3 class="mt-3 text-xl font-semibold">Experienced Coach</h3>
+                    <p class="mt-1">
+                        Ice hockey (or simply hockey) is a team sport played on ice skates
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-yellow-500 text-xl font-extrabold" style="--value: 90"
+                        role="progressbar">
+                        90%
+                    </div>
+                    <h3 class="mt-3 text-xl font-semibold">Senior Player</h3>
+                    <p class="mt-1">
+                        Ice hockey (or simply hockey) is a team sport played on ice skates
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-blue-500 text-xl font-extrabold" style="--value: 80"
+                        role="progressbar">
+                        80%
+                    </div>
+                    <h3 class="mt-3 text-xl font-semibold">Training Ground</h3>
+                    <p class="mt-1">
+                        Ice hockey (or simply hockey) is a team sport played on ice skates
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="my-24 mx-6 lg:mx-0">
+            <div class="text-center">
+              <h1 class="text-4xl font-extrabold text-[#131318]">
+                Program Sections
+              </h1>
+              <p
+                class="text-[rgba(19, 19, 24, 0.60)] font-medium mt-6 max-w-[607px] mx-auto"
+              >
+                After various periods of expansion and reorganization, the NHL now
+                consists of 32 teams in two conferences and four divisions.in two
+                conferences and four divisions.in two conferences and four
+                divisions.
+              </p>
+            </div>
+    
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-16">
+              <div
+                class="relative bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.1)),url(Images/2.png)] bg-cover bg-center bg-no-repeat h-[338px] rounded-2xl"
+              >
+                <div class="absolute bottom-5 left-5 space-y-3">
+                  <h2 class="text-3xl font-extrabold text-white">Junior Program</h2>
+                  <p class="max-w-[490px] font-medium text-white">
+                    Hockey is a term used to denote a family of various types of
+                    both summer and winter team sports which originated on either an
+                    outdoor field, sheet of ice,
+                  </p>
+                  <button
+                    class="btn bg-red-500 text-white hover:text-black border-none px-4"
+                  >
+                    Register Now
+                  </button>
+                </div>
+              </div>
+              <div
+                class="relative bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.1)),url(Images/3.png)] bg-cover bg-center bg-no-repeat h-[338px] rounded-2xl"
+              >
+                <div class="absolute bottom-5 left-5 space-y-3">
+                  <h2 class="text-3xl font-extrabold text-white">
+                    Teenager Program
+                  </h2>
+                  <p class="max-w-[490px] font-medium text-white">
+                    Hockey is a term used to denote a family of various types of
+                    both summer and winter team sports which originated on either an
+                    outdoor field, sheet of ice,
+                  </p>
+                  <button
+                    class="btn bg-red-500 text-white hover:text-black border-none px-4"
+                  >
+                    Register Now
+                  </button>
+                </div>
+              </div>
+              <div
+                class="relative bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.1)),url(Images/4.png)] bg-cover bg-center bg-no-repeat h-[338px] rounded-2xl col-span-1 lg:col-span-2"
+              >
+                <div class="absolute bottom-5 left-5 space-y-3">
+                  <h2 class="text-3xl font-extrabold text-white">
+                    Professional Program
+                  </h2>
+                  <p class="max-w-[490px] font-medium text-white">
+                    Hockey is a term used to denote a family of various types of
+                    both summer and winter team sports which originated on either an
+                    outdoor field, sheet of ice,
+                  </p>
+                  <button
+                    class="btn bg-red-500 text-white hover:text-black border-none px-4"
+                  >
+                    Register Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+</body>
+
+</html>
